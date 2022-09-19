@@ -1,0 +1,30 @@
+@import "reset.css";
+@import "components/status-bar.css";
+@import "variables.css";
+@import "screen/login.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "screen/friends.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "screen/find.css";
+@import "components/icon-row.css";
+@import "screen/more.css";
+@import "components/alt-screen-header.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
+@import "components/no-mobile.css";
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  color: #2e363e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
